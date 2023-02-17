@@ -5,16 +5,14 @@
 
 /* betty style doc for function main goes there */
 /**
-* maim -Entry point
+* main - Entry point
 *
 * Return: Always 0 (Sucess)
 */
 
-int maim(void)
+int main(void)
 {
 	int n;
-
-	cout("hi");
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
