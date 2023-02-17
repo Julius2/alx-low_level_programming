@@ -12,7 +12,6 @@ int main(void)
 	char d;
 
 	c = 'a'
-
 	d = 'A';
 	while
 		(c <= 'z') {
