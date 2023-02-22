@@ -2,11 +2,11 @@
 
 /**
  * print_last_digit - Prints the last digit of any number
+ * @n: the number to be worked on
  *Return: the value of the last digit of the  number
  */
 
 int print_last_digit(int n)
-
 {
 	int last;
 
