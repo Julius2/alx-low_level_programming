@@ -34,13 +34,14 @@ int main(void)
 			half1 += 1;
 			half2 %= 100000000000;
 		}
-		printf("lu%lu", half1, half2);
+		printf("%lu%lu", half1, half2);
 		if (count != 98)
 			printf(", ");
-		fib1_half1 = fib2_half1
+		fib1_half1 = fib2_half1;
 			fib1_hal2 = fib2_half2;
 		fib2_half1 = half1;
 		fib2_half2 = half2;
 	}
 	printf("\n");
 	return (0);
+}
